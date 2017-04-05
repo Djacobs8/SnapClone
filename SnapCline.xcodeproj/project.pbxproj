@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7593C34F559DF07FFE3D87C8 /* Pods_SnapCline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA168747D083310DF9FF1F1E /* Pods_SnapCline.framework */; };
+		B67156CC1E9511D3002BF189 /* perfectly-timed-photos-part2-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B67156CB1E9511D3002BF189 /* perfectly-timed-photos-part2-7.jpeg */; };
+		B67156CE1E951299002BF189 /* PicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67156CD1E951299002BF189 /* PicViewController.swift */; };
 		B6B27C551E94B760000D9BAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B27C541E94B760000D9BAE /* AppDelegate.swift */; };
-		B6B27C571E94B760000D9BAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B27C561E94B760000D9BAE /* ViewController.swift */; };
+		B6B27C571E94B760000D9BAE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B27C561E94B760000D9BAE /* SignInViewController.swift */; };
 		B6B27C5A1E94B760000D9BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B27C581E94B760000D9BAE /* Main.storyboard */; };
 		B6B27C5D1E94B760000D9BAE /* SnapCline.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6B27C5B1E94B760000D9BAE /* SnapCline.xcdatamodeld */; };
 		B6B27C5F1E94B760000D9BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B27C5E1E94B760000D9BAE /* Assets.xcassets */; };
 		B6B27C621E94B760000D9BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B27C601E94B760000D9BAE /* LaunchScreen.storyboard */; };
+		B6B27C6A1E94BAA7000D9BAE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6B27C691E94BAA7000D9BAE /* GoogleService-Info.plist */; };
+		B6B27C6C1E94CF8B000D9BAE /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B27C6B1E94CF8B000D9BAE /* SnapsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B67156CB1E9511D3002BF189 /* perfectly-timed-photos-part2-7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "perfectly-timed-photos-part2-7.jpeg"; sourceTree = "<group>"; };
+		B67156CD1E951299002BF189 /* PicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicViewController.swift; sourceTree = "<group>"; };
 		B6B27C511E94B760000D9BAE /* SnapCline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapCline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B27C541E94B760000D9BAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6B27C561E94B760000D9BAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6B27C561E94B760000D9BAE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B6B27C591E94B760000D9BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6B27C5C1E94B760000D9BAE /* SnapCline.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnapCline.xcdatamodel; sourceTree = "<group>"; };
 		B6B27C5E1E94B760000D9BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6B27C611E94B760000D9BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6B27C631E94B760000D9BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B27C691E94BAA7000D9BAE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6B27C6B1E94CF8B000D9BAE /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		BA168747D083310DF9FF1F1E /* Pods_SnapCline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapCline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA8DEFA8DABCB47C40E20ED /* Pods-SnapCline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapCline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapCline/Pods-SnapCline.debug.xcconfig"; sourceTree = "<group>"; };
+		DDE427D3ADBECEF10B52FF74 /* Pods-SnapCline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapCline.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapCline/Pods-SnapCline.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7593C34F559DF07FFE3D87C8 /* Pods_SnapCline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DC4BF2010625404CA3C8771 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAA8DEFA8DABCB47C40E20ED /* Pods-SnapCline.debug.xcconfig */,
+				DDE427D3ADBECEF10B52FF74 /* Pods-SnapCline.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0B03A023CA70728F22F8565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA168747D083310DF9FF1F1E /* Pods_SnapCline.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B6B27C481E94B760000D9BAE = {
 			isa = PBXGroup;
 			children = (
 				B6B27C531E94B760000D9BAE /* SnapCline */,
 				B6B27C521E94B760000D9BAE /* Products */,
+				3DC4BF2010625404CA3C8771 /* Pods */,
+				B0B03A023CA70728F22F8565 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +89,16 @@
 			isa = PBXGroup;
 			children = (
 				B6B27C541E94B760000D9BAE /* AppDelegate.swift */,
-				B6B27C561E94B760000D9BAE /* ViewController.swift */,
+				B6B27C561E94B760000D9BAE /* SignInViewController.swift */,
+				B6B27C6B1E94CF8B000D9BAE /* SnapsViewController.swift */,
+				B67156CD1E951299002BF189 /* PicViewController.swift */,
 				B6B27C581E94B760000D9BAE /* Main.storyboard */,
 				B6B27C5E1E94B760000D9BAE /* Assets.xcassets */,
 				B6B27C601E94B760000D9BAE /* LaunchScreen.storyboard */,
 				B6B27C631E94B760000D9BAE /* Info.plist */,
 				B6B27C5B1E94B760000D9BAE /* SnapCline.xcdatamodeld */,
+				B6B27C691E94BAA7000D9BAE /* GoogleService-Info.plist */,
+				B67156CB1E9511D3002BF189 /* perfectly-timed-photos-part2-7.jpeg */,
 			);
 			path = SnapCline;
 			sourceTree = "<group>";
@@ -74,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6B27C661E94B760000D9BAE /* Build configuration list for PBXNativeTarget "SnapCline" */;
 			buildPhases = (
+				1D86071BBD2E8488D1B53FBF /* [CP] Check Pods Manifest.lock */,
 				B6B27C4D1E94B760000D9BAE /* Sources */,
 				B6B27C4E1E94B760000D9BAE /* Frameworks */,
 				B6B27C4F1E94B760000D9BAE /* Resources */,
+				C6810EA46E4F92DA1EE37FBA /* [CP] Embed Pods Frameworks */,
+				124B87F3F688BC3ECD97A485 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,19 +166,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6B27C621E94B760000D9BAE /* LaunchScreen.storyboard in Resources */,
+				B6B27C6A1E94BAA7000D9BAE /* GoogleService-Info.plist in Resources */,
 				B6B27C5F1E94B760000D9BAE /* Assets.xcassets in Resources */,
+				B67156CC1E9511D3002BF189 /* perfectly-timed-photos-part2-7.jpeg in Resources */,
 				B6B27C5A1E94B760000D9BAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		124B87F3F688BC3ECD97A485 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapCline/Pods-SnapCline-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D86071BBD2E8488D1B53FBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6810EA46E4F92DA1EE37FBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapCline/Pods-SnapCline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6B27C4D1E94B760000D9BAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6B27C571E94B760000D9BAE /* ViewController.swift in Sources */,
+				B67156CE1E951299002BF189 /* PicViewController.swift in Sources */,
+				B6B27C6C1E94CF8B000D9BAE /* SnapsViewController.swift in Sources */,
+				B6B27C571E94B760000D9BAE /* SignInViewController.swift in Sources */,
 				B6B27C5D1E94B760000D9BAE /* SnapCline.xcdatamodeld in Sources */,
 				B6B27C551E94B760000D9BAE /* AppDelegate.swift in Sources */,
 			);
@@ -264,6 +355,7 @@
 		};
 		B6B27C671E94B760000D9BAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA8DEFA8DABCB47C40E20ED /* Pods-SnapCline.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SnapCline/Info.plist;
@@ -276,6 +368,7 @@
 		};
 		B6B27C681E94B760000D9BAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE427D3ADBECEF10B52FF74 /* Pods-SnapCline.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SnapCline/Info.plist;
@@ -305,6 +398,7 @@
 				B6B27C681E94B760000D9BAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

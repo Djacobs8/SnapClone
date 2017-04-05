@@ -1,0 +1,6 @@
+framework module Pods_SnapCline {
+  umbrella header "Pods-SnapCline-umbrella.h"
+
+  export *
+  module * { export * }
+}
