@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7593C34F559DF07FFE3D87C8 /* Pods_SnapCline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA168747D083310DF9FF1F1E /* Pods_SnapCline.framework */; };
+		B634EB411E9C915F009F3C73 /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B634EB401E9C915F009F3C73 /* SelectUserViewController.swift */; };
 		B67156CC1E9511D3002BF189 /* perfectly-timed-photos-part2-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B67156CB1E9511D3002BF189 /* perfectly-timed-photos-part2-7.jpeg */; };
 		B67156CE1E951299002BF189 /* PicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67156CD1E951299002BF189 /* PicViewController.swift */; };
 		B6B27C551E94B760000D9BAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B27C541E94B760000D9BAE /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B634EB401E9C915F009F3C73 /* SelectUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
 		B67156CB1E9511D3002BF189 /* perfectly-timed-photos-part2-7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "perfectly-timed-photos-part2-7.jpeg"; sourceTree = "<group>"; };
 		B67156CD1E951299002BF189 /* PicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicViewController.swift; sourceTree = "<group>"; };
 		B6B27C511E94B760000D9BAE /* SnapCline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapCline.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,7 @@
 				B6B27C561E94B760000D9BAE /* SignInViewController.swift */,
 				B6B27C6B1E94CF8B000D9BAE /* SnapsViewController.swift */,
 				B67156CD1E951299002BF189 /* PicViewController.swift */,
+				B634EB401E9C915F009F3C73 /* SelectUserViewController.swift */,
 				B6B27C581E94B760000D9BAE /* Main.storyboard */,
 				B6B27C5E1E94B760000D9BAE /* Assets.xcassets */,
 				B6B27C601E94B760000D9BAE /* LaunchScreen.storyboard */,
@@ -231,6 +234,7 @@
 				B67156CE1E951299002BF189 /* PicViewController.swift in Sources */,
 				B6B27C6C1E94CF8B000D9BAE /* SnapsViewController.swift in Sources */,
 				B6B27C571E94B760000D9BAE /* SignInViewController.swift in Sources */,
+				B634EB411E9C915F009F3C73 /* SelectUserViewController.swift in Sources */,
 				B6B27C5D1E94B760000D9BAE /* SnapCline.xcdatamodeld in Sources */,
 				B6B27C551E94B760000D9BAE /* AppDelegate.swift in Sources */,
 			);

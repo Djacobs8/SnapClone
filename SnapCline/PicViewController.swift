@@ -29,14 +29,17 @@ class PicViewController: UIViewController, UIImagePickerControllerDelegate, UINa
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+        let image = info[UIImagePickerControllerOriginalImage] as! UIImage // pass the image as a UIImage
         
-        imageView.image = image
+        imageView.image = image // can now throw this to server
+        
+        imageView.backgroundColor = UIColor.clear // make back ground edges clear
         
         imagePicker.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func nextTapped(_ sender: Any) {
+        
         // turn off next when you go to upload
         nextButton.isEnabled = false
         // looking for Firebase storage and subsequently the child folder (images) that we made
@@ -44,17 +47,17 @@ class PicViewController: UIViewController, UIImagePickerControllerDelegate, UINa
         
         let imageData = UIImageJPEGRepresentation(imageView.image!, 0.1)!
         
-        //NSUUID is a unique number every time 
+        //NSUUID is a unique number every time
         
         imagesFolder.child("\(NSUUID().uuidString).jpeg").put(imageData, metadata: nil, completion: {(metadata, error) in
             print ("We tried to upload")
             if error != nil {
-                print ("We have an error:\(error)")
+                print ("We have an error:\(error)") // if error is not equal to zero, aka there is one show this msg
             } else {
-                
+                // otherwise print the meta data leading to DL
                 print(metadata?.downloadURL())
                 
-                self.performSegue(withIdentifier: "selectUserSegue", sender: nil)
+                self.performSegue(withIdentifier: "selectUserSegue", sender: nil) //send to the next
                 
             }
         })
@@ -65,7 +68,8 @@ class PicViewController: UIViewController, UIImagePickerControllerDelegate, UINa
     
     @IBAction func cameraTapped(_ sender: Any) {
         
-        imagePicker.sourceType = .photoLibrary
+        imagePicker.sourceType = .photoLibrary //specify it is coming from cam
+        imagePicker.allowsEditing = false
         
         present(imagePicker, animated: true, completion: nil)
         
